@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33529.622
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Views", "Proyecto_Final_Nivel2_web\Views.csproj", "{E15EAB3D-8F61-4957-977D-B952C8A1F634}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "Dominio\Dominio.csproj", "{3861F466-8097-44DB-989B-3F81EEFE395B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Negocio", "Negocio\Negocio.csproj", "{9F5FF4D2-0068-4A12-A9B2-AB2C0744E041}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E15EAB3D-8F61-4957-977D-B952C8A1F634}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E15EAB3D-8F61-4957-977D-B952C8A1F634}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E15EAB3D-8F61-4957-977D-B952C8A1F634}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E15EAB3D-8F61-4957-977D-B952C8A1F634}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3861F466-8097-44DB-989B-3F81EEFE395B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3861F466-8097-44DB-989B-3F81EEFE395B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3861F466-8097-44DB-989B-3F81EEFE395B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3861F466-8097-44DB-989B-3F81EEFE395B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F5FF4D2-0068-4A12-A9B2-AB2C0744E041}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F5FF4D2-0068-4A12-A9B2-AB2C0744E041}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F5FF4D2-0068-4A12-A9B2-AB2C0744E041}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F5FF4D2-0068-4A12-A9B2-AB2C0744E041}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9CEACB3-EA6F-401C-89E8-4A5178D42C76}
+	EndGlobalSection
+EndGlobal
