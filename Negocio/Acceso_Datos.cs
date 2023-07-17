@@ -21,7 +21,7 @@ namespace Negocio
 
         public Acceso_Datos()
         {
-            // conexion = new SqlConnection("SERVER = DESKTOP-A78M7US\\SQLEXPRESS; database = CATALOGO_WEB_DB; integrated security = true");
+             //conexion = new SqlConnection("SERVER = DESKTOP-A78M7US\\SQLEXPRESS; database = CATALOGO_WEB_DB; integrated security = true");
             conexion = new SqlConnection(ConfigurationManager.AppSettings["cadenaConexion"]);
             comando = new SqlCommand();
         }

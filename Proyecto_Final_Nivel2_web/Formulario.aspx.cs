@@ -18,7 +18,7 @@ namespace Proyecto_Final_Nivel2_web
         {
             try
             {
-                if (Request.QueryString["Id"] == null)
+                if (Request.QueryString["Id"] == null && !IsPostBack)
                 {
                     
                 CargarDdl();
@@ -147,8 +147,7 @@ namespace Proyecto_Final_Nivel2_web
                 List<Articulo> lista = (List<Articulo>)Session["Lista"];
 
                 nuevo.Nombre = txtNombre.Text;
-                nuevo.Precio = decimal.Parse(txtPrecio.Text);
-                nuevo.Descripcion = txtDescripcion.Text;
+                nuevo.Precio = decimal.Parse((txtPrecio.Text));
                 nuevo.Codigo = txtCodigo.Text;
                 nuevo.ImagenUrl = txtImagen.Text;
                 nuevo.Categoria = new Categoria();
